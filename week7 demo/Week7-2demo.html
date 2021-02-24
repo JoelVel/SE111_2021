@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        w7d2-javascript selectro and devent demo>
+    </h1>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="first" id="first" class="questions">First: </label>
+                </td>
+                <td>
+                    <label for="last" id="last" class="questions">Last: </label>
+                </td>
+
+                <td>
+                    <input type="text" name="age" id="age"> age: 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <type type="button" id="enter-button" value="enter"></type>
+                </td>
+
+                <td>
+
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br>
+    <br>
+
+    <div id="info" style="border: 1px solid black; width500px; height: 200px">
+
+    </div>
+
+
+    <script>
+        document.querySelector('#enter-button').addEventListener('click', alertInfo)
+
+        function AlertInfo(e) {
+
+            var fname = document.querySelector('#first').Value
+            var lname = document.querySelector('#last').Value
+
+            console.log(fname)
+            console.log(lname)
+
+            var full = fname + ` ` + lname
+
+            alert(`hi there ${full}!`)
+        }
+
+    </script>
+</body>
+</html>

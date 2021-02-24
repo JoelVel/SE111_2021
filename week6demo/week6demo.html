@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to good burger</h1>
+
+    <script>
+        alert("Hello & welcome to Good Burger")
+
+       var order = prompt('Welcome to Good Burger, Home of the good burger, will this order be for take out? type "yes" or "no" ')
+
+        console.log(order)
+
+        console.log(`value stored to 'order': ${order}`)
+
+        if (10 == "10")
+        {
+            console.log("10 === '10' ")
+        }
+
+        {
+            console.log("nope")
+        }
+
+        function checkDinging(_order)
+        {
+            if (_order.toLowerCase() === `yes`)
+            {
+                console.log('checkDinging() -- take out')
+
+                return 'take_out'
+            }
+            else
+            {
+                console.log(`checkDinging()--dine in`)
+
+                return `dine_in`
+            }
+
+        }
+
+
+        var dining = checkDinging(order)
+        console.log(dinging)
+
+        
+    </script>
+</body>
+</html>
