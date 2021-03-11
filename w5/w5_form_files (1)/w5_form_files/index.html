@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--The type of font we are using-->
+    <meta charset="UTF-8">
+    <!--Tells the -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Your Name Here">
+    <meta name="description" content="Default HTML Page for SE 111">
+    
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+    <title>Week 5 | Tables and Forms</title>
+</head>
+<body>
+    <!--Build your Table and Form here-->
+    
+    <table>
+        <thead>
+            <h1>Birthday Party Registration Form</h1>
+            <tr>
+                <td><b>Labels</b></td>
+                <td><b>form field</b></td>
+            </tr>
+        </thead>
+        <form method="GET" action="confirm.html">
+            <tbody>
+                <tr>
+                    
+                    <td>Parten/Guardian Name</td>
+                    <td>
+                        <form>
+                            <input type="tex1" name="firstname" id="first" placeholder="First Name" required>
+                            <br><input type="text2" name="lastname" id="last" placeholder="Last Name" required>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Child's first name</td>
+                    <td>
+                        <form>
+                            <input type="text3" name="childsname" id="child" placeholder="child's name" required>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>child's age</td>
+                    <td>
+                        <form>
+                            <input type="text3" name="age" id="age" value="3" required>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td><h2>Date and time</h2></td>
+                </tr>
+                <tr>
+                    <td>Date</td>
+                    <td>
+                        <form>
+                            <input type="date" name="date" required>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Start time</td>
+                    <td>
+                        <form>
+                            <input type="time" name="time" required>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Number of guest</td>
+                    <td>
+                        <form>
+                            <input type="number" name="guests" value="5">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td><h2>Food</h2></td>
+                </tr>
+                <tr>
+                    <td>size</td>
+                    <td>
+                        <form>
+                            <input type="radio" name="size">sm <input type="radio" name="size">med <input type="radio" name="size">lg
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>drinks</td>
+                    <td>
+                        <form>
+                            <input type="checkbox" for="drink1">Coke<br>
+                            <input type="checkbox" for="drink2">Sprite<br>
+                            <input type="checkbox" for="drink3">fruit punch<br>
+                            <input type="checkbox" for="drink4">lemonade<br>
+                            <input type="checkbox" for="drink5">Ice tea
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Cake</td>
+                    <td>
+                        <form>
+                            <select name="cake"><option>Chocolate</option><option>Vanilla</option><option>I'll bring my own</option></select>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>color scheme</td>
+                    <td>
+                        <form>
+                            choose color scheme 
+                            <input type="color" name="colors">
+                            <input type="color" name="colors">
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    
+                    <td>
+                        <form>
+                            <input type="submit" value="submit">
+                        </form>
+                    </td>
+                    
+                </tr>
+            </tbody>
+        </form>
+    
+    </table>
+    
+    
+</body>
+</html>
